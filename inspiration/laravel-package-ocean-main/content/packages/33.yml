@@ -1,0 +1,19 @@
+id: 33
+name: 'Laravel Log Viewer'
+description: 'An interface to view the log file.'
+category_id: '2'
+github: 'https://github.com/rap2hpoutre/laravel-log-viewer'
+author: rap2hpoutre
+composer: rap2hpoutre/laravel-log-viewer
+npm: null
+stars: 3171
+keywords:
+    - security
+first_release_at: '2014-11-24 08:26:52'
+latest_release_at: '2025-03-10 15:35:06'
+laravel_dependency_versions:
+    - ^6.0|^7.0|^8.0|^9.0|^10.0|^11.0|^12.0
+package_type: laravel-package
+paid_integration: false
+created_at: 2023-04-09T13:58:47+00:00
+updated_at: 2025-04-11T12:28:38+00:00

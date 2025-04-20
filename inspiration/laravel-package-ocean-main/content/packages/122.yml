@@ -1,0 +1,18 @@
+id: 122
+name: BelongsToThrough
+description: 'Unlimited intermediate BelongsToThrough relationships with Inverse HasManyThrough.'
+category_id: '3'
+github: 'https://github.com/staudenmeir/belongs-to-through'
+author: staudenmeir
+composer: staudenmeir/belongs-to-through
+npm: null
+stars: 1228
+keywords: {  }
+first_release_at: '2019-02-01 14:36:14'
+latest_release_at: '2025-02-20 19:24:03'
+laravel_dependency_versions:
+    - ^12.0
+package_type: laravel-package
+paid_integration: false
+created_at: 2023-04-09T13:58:48+00:00
+updated_at: 2025-04-11T12:33:30+00:00
