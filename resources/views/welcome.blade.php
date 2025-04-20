@@ -263,8 +263,8 @@
                 <nav class="flex items-center justify-between">
                     <!-- Logo -->
                     <a href="#" class="flex items-center space-x-2">
-                        <img src="/images/ms-logo-white-text.svg" alt="MotionStack Design" class="h-10 hidden dark:block">
-                        <img src="/images/ms-logo-black-text.svg" alt="MotionStack Design" class="h-10 block dark:hidden">
+                        <img src="{{ asset('images/ms-logo-white-text.svg') }}" alt="MotionStack Design" class="h-10 hidden dark:block">
+                        <img src="{{ asset('images/ms-logo-black-text.svg') }}" alt="MotionStack Design" class="h-10 block dark:hidden">
                     </a>
                     
                     <!-- Navigation Links -->
@@ -1310,8 +1310,8 @@
                     <div class="max-w-7xl mx-auto">
                         <div class="flex flex-col md:flex-row justify-between items-center">
                             <div class="mb-6 md:mb-0">
-                                <img src="/images/ms-logo-black-text-vertical.svg" alt="MotionStack Design" class="h-16 dark:hidden">
-                                <img src="/images/ms-logo-white-text-vertical.svg" alt="MotionStack Design" class="h-16 hidden dark:block">
+                                <img src="{{ asset('images/ms-logo-black-text-vertical.svg') }}" alt="MotionStack Design" class="h-16 dark:hidden">
+                                <img src="{{ asset('images/ms-logo-white-text-vertical.svg') }}" alt="MotionStack Design" class="h-16 hidden dark:block">
                                 <p class="text-slate-600 dark:text-zinc-400 mt-2">Bringing brands to life through motion.</p>
                             </div>
                             <div class="text-slate-600 dark:text-zinc-400 text-sm">
