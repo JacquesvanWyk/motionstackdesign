@@ -252,10 +252,10 @@
                         <div class="flex flex-col lg:flex-row items-center gap-12">
                             <div class="lg:w-1/2">
                                 <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-600">
-                                    Motion Design <span class="block">Reimagined</span>
+                                    Crafting Tailored <span class="block">Software Solutions</span> for Your Business
                                 </h1>
                                 <p class="text-lg md:text-xl max-w-2xl mb-10 text-zinc-300">
-                                    Elevate your digital presence with captivating motion design that brings your brand to life. We create stunning animations that engage and inspire.                            
+                                    From web and mobile apps to video production and UI design, we deliver excellence across the board.                            
                                 </p>
                                 <div class="flex flex-col sm:flex-row gap-4">
                                     <a href="#services" class="px-8 py-3 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 text-white font-medium transition-transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 focus:ring-offset-[#04041F]">
@@ -331,13 +331,13 @@
                                 <div class="relative z-10 p-1 bg-gradient-to-r from-blue-500/80 to-purple-600/80"></div>
                                 <div class="p-6 relative z-10">
                                     <div class="w-12 h-12 rounded-lg bg-white/10 flex items-center justify-center mb-4">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z" />
                                         </svg>
                                     </div>
-                                    <h3 class="text-xl font-bold mb-2">UI/UX Animation</h3>
-                                    <p class="text-zinc-400 mb-4">Enhance user experience with smooth, intuitive interface animations that guide users and add delight to interactions.</p>
-                                    <a href="#" class="inline-flex items-center text-blue-400 hover:text-blue-300 transition-colors">
+                                    <h3 class="text-xl font-bold mb-2">Video</h3>
+                                    <p class="text-zinc-400 mb-4">From engaging intros to full-length corporate videos, we craft content that captivates—ready to scale for your biggest projects.</p>
+                                    <a href="#" class="inline-flex items-center text-purple-400 hover:text-purple-300 transition-colors">
                                         Learn more
                                         <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
@@ -358,13 +358,13 @@
                                 <div class="relative z-10 p-1 bg-gradient-to-r from-blue-500/80 to-purple-600/80"></div>
                                 <div class="p-6 relative z-10">
                                     <div class="w-12 h-12 rounded-lg bg-white/10 flex items-center justify-center mb-4">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z" />
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
                                         </svg>
                                     </div>
-                                    <h3 class="text-xl font-bold mb-2">Explainer Videos</h3>
-                                    <p class="text-zinc-400 mb-4">Communicate complex ideas simply and effectively with engaging animated explainer videos tailored to your brand.</p>
-                                    <a href="#" class="inline-flex items-center text-purple-400 hover:text-purple-300 transition-colors">
+                                    <h3 class="text-xl font-bold mb-2">Mobile Apps</h3>
+                                    <p class="text-zinc-400 mb-4">Native and cross-platform mobile applications built with Flutter and React Native, delivering exceptional user experiences on iOS and Android.</p>
+                                    <a href="#" class="inline-flex items-center text-blue-400 hover:text-blue-300 transition-colors">
                                         Learn more
                                         <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
@@ -385,13 +385,13 @@
                                 <div class="relative z-10 p-1 bg-gradient-to-r from-blue-500/80 to-purple-600/80"></div>
                                 <div class="p-6 relative z-10">
                                     <div class="w-12 h-12 rounded-lg bg-white/10 flex items-center justify-center mb-4">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                                         </svg>
                                     </div>
-                                    <h3 class="text-xl font-bold mb-2">Logo Animation</h3>
-                                    <p class="text-zinc-400 mb-4">Bring your brand identity to life with dynamic logo animations that leave a lasting impression on your audience.</p>
-                                    <a href="#" class="inline-flex items-center text-blue-400 hover:text-blue-300 transition-colors">
+                                    <h3 class="text-xl font-bold mb-2">Web Applications</h3>
+                                    <p class="text-zinc-400 mb-4">Modern, responsive web applications built with Laravel, Vue, and Nuxt that scale with your business needs and provide seamless user experiences.</p>
+                                    <a href="#" class="inline-flex items-center text-purple-400 hover:text-purple-300 transition-colors">
                                         Learn more
                                         <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
@@ -412,13 +412,13 @@
                                 <div class="relative z-10 p-1 bg-gradient-to-r from-blue-500/80 to-purple-600/80"></div>
                                 <div class="p-6 relative z-10">
                                     <div class="w-12 h-12 rounded-lg bg-white/10 flex items-center justify-center mb-4">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
                                         </svg>
                                     </div>
-                                    <h3 class="text-xl font-bold mb-2">Social Media Content</h3>
-                                    <p class="text-zinc-400 mb-4">Stand out in crowded feeds with eye-catching animated content optimized for social media platforms.</p>
-                                    <a href="#" class="inline-flex items-center text-purple-400 hover:text-purple-300 transition-colors">
+                                    <h3 class="text-xl font-bold mb-2">Development</h3>
+                                    <p class="text-zinc-400 mb-4">We build robust and scalable software solutions, including websites, web apps, mobile apps, and desktop apps, using cutting-edge technologies like Laravel, Nuxt, Flutter, NativePHP, and Tauri.</p>
+                                    <a href="#" class="inline-flex items-center text-blue-400 hover:text-blue-300 transition-colors">
                                         Learn more
                                         <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
@@ -439,13 +439,13 @@
                                 <div class="relative z-10 p-1 bg-gradient-to-r from-blue-500/80 to-purple-600/80"></div>
                                 <div class="p-6 relative z-10">
                                     <div class="w-12 h-12 rounded-lg bg-white/10 flex items-center justify-center mb-4">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z" />
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
                                         </svg>
                                     </div>
-                                    <h3 class="text-xl font-bold mb-2">Character Animation</h3>
-                                    <p class="text-zinc-400 mb-4">Create memorable characters that resonate with your audience and bring personality to your brand storytelling.</p>
-                                    <a href="#" class="inline-flex items-center text-blue-400 hover:text-blue-300 transition-colors">
+                                    <h3 class="text-xl font-bold mb-2">UI/UX Animation</h3>
+                                    <p class="text-zinc-400 mb-4">Enhance user experience with smooth, intuitive interface animations that guide users and add delight to interactions.</p>
+                                    <a href="#" class="inline-flex items-center text-purple-400 hover:text-purple-300 transition-colors">
                                         Learn more
                                         <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
@@ -466,13 +466,13 @@
                                 <div class="relative z-10 p-1 bg-gradient-to-r from-blue-500/80 to-purple-600/80"></div>
                                 <div class="p-6 relative z-10">
                                     <div class="w-12 h-12 rounded-lg bg-white/10 flex items-center justify-center mb-4">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
                                         </svg>
                                     </div>
-                                    <h3 class="text-xl font-bold mb-2">Motion Graphics</h3>
-                                    <p class="text-zinc-400 mb-4">Transform static designs into dynamic visual experiences with professional motion graphics for any medium.</p>
-                                    <a href="#" class="inline-flex items-center text-purple-400 hover:text-purple-300 transition-colors">
+                                    <h3 class="text-xl font-bold mb-2">Explainer Videos</h3>
+                                    <p class="text-zinc-400 mb-4">Communicate complex ideas simply and effectively with engaging animated explainer videos tailored to your brand.</p>
+                                    <a href="#" class="inline-flex items-center text-blue-400 hover:text-blue-300 transition-colors">
                                         Learn more
                                         <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
@@ -537,7 +537,7 @@
                                     <div class="absolute -top-6 -right-6 w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center shadow-lg">
                                         <div class="w-10 h-10 rounded-full bg-[#04041F] flex items-center justify-center">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z" />
                                             </svg>
                                         </div>
                                     </div>
@@ -553,8 +553,8 @@
                             
                             <!-- Right Column: Content -->
                             <div class="lg:w-1/2 order-1 lg:order-2">
-                                <h2 class="text-3xl md:text-4xl font-bold mb-6">Why Choose <span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-600">MotionStack</span></h2>
-                                <p class="text-lg text-zinc-400 mb-8">We combine technical expertise with creative vision to deliver motion design that captivates audiences and drives results.</p>
+                                <h2 class="text-3xl md:text-4xl font-bold mb-6">Why <span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-600">Partner with MotionStack</span>?</h2>
+                                <p class="text-lg text-zinc-400 max-w-2xl mx-auto">We're not just developers – we're strategic partners committed to your success.</p>
                                 
                                 <!-- Features List -->
                                 <div class="space-y-6">
@@ -562,6 +562,42 @@
                                     <div class="flex items-start">
                                         <div class="flex-shrink-0 w-10 h-10 rounded-lg bg-white/10 flex items-center justify-center mr-4">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <h4 class="font-medium mb-1">Expertise</h4>
+                                            <p class="text-zinc-400">Our team of experts has years of experience in software development, ensuring that your project is in good hands.</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Feature 2 -->
+                                    <div class="flex items-start">
+                                        <div class="flex-shrink-0 w-10 h-10 rounded-lg bg-white/10 flex items-center justify-center mr-4">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <h4 class="font-medium mb-1">Innovation</h4>
+                                            <p class="text-zinc-400">We stay up-to-date with the latest technologies and trends, ensuring that your project is innovative and cutting-edge.</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Feature 3 -->
+                                    <div class="flex items-start">
+                                        <div class="flex-shrink-0 w-10 h-10 rounded-lg bg-white/10 flex items-center justify-center mr-4">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <h4 class="font-medium mb-1">Support</h4>
+                                            <p class="text-zinc-400">We provide ongoing support and maintenance to ensure that your project continues to run smoothly and efficiently.</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -620,7 +656,7 @@
                                 <div class="absolute inset-0 bg-gradient-to-t from-[#04041F] via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
                                     <div class="p-6 w-full">
                                         <h3 class="text-xl font-bold mb-2">E-Commerce App Animations</h3>
-                                        <p class="text-zinc-300 mb-4">UI/UX Animation</p>
+                                        <p class="text-zinc-300 mb-4">UI Animation</p>
                                         <a href="#" class="inline-flex items-center text-blue-400 hover:text-blue-300 transition-colors">
                                             View Project
                                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -966,8 +1002,8 @@
                         <div class="flex flex-col lg:flex-row gap-16">
                             <!-- Left Column: Contact Form -->
                             <div class="lg:w-2/3">
-                                <h2 class="text-3xl md:text-4xl font-bold mb-4">Get in <span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-600">Touch</span></h2>
-                                <p class="text-lg text-zinc-400 mb-8">Ready to bring your ideas to life? Fill out the form below and we'll get back to you within 24 hours.</p>
+                                <h2 class="text-3xl md:text-4xl font-bold mb-4">Ready to <span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-600">Elevate Your Business</span>?</h2>
+                                <p class="text-lg text-zinc-400 mb-8">Let's discuss how we can bring your vision to life with our software solutions.</p>
                                 
                                 <!-- Contact Form -->
                                 <form class="space-y-6">
