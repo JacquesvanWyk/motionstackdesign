@@ -40,7 +40,7 @@
         border-radius: 0.75rem;
         overflow: hidden;
     }
-    
+
     .animated-border::before {
         content: '';
         position: absolute;
@@ -59,17 +59,17 @@
         transition: opacity 0.3s ease;
         z-index: 1;
     }
-    
+
     .animated-border-purple::before {
         background: linear-gradient(90deg, #9333ea, #3b82f6, #9333ea);
         background-size: 200% 200%;
     }
-    
+
     .group:hover .animated-border::before {
         opacity: 1;
         animation: border-rotate 3s linear infinite;
     }
-    
+
     @keyframes border-rotate {
         0% {
             background-position: 0% 0%;
@@ -81,7 +81,7 @@
             background-position: 0% 0%;
         }
     }
-    
+
     /* Animated border line that runs around the element */
     .border-line {
         position: absolute;
@@ -89,7 +89,7 @@
         overflow: hidden;
         border-radius: 0.75rem;
     }
-    
+
     .border-line::before {
         content: '';
         position: absolute;
@@ -97,11 +97,11 @@
         height: 1px;
         background: linear-gradient(90deg, transparent, #3b82f6, #9333ea, transparent);
     }
-    
+
     .border-line-purple::before {
         background: linear-gradient(90deg, transparent, #9333ea, #3b82f6, transparent);
     }
-    
+
     /* Top border */
     .border-line-top {
         height: 1px;
@@ -109,12 +109,12 @@
         right: 0;
         top: 0;
     }
-    
+
     .border-line-top::before {
         top: 0;
         left: -200%;
     }
-    
+
     /* Right border */
     .border-line-right {
         width: 1px;
@@ -122,14 +122,14 @@
         top: 0;
         bottom: 0;
     }
-    
+
     .border-line-right::before {
         width: 1px;
         height: 300%;
         top: -200%;
         right: 0;
     }
-    
+
     /* Bottom border */
     .border-line-bottom {
         height: 1px;
@@ -137,12 +137,12 @@
         bottom: 0;
         left: 0;
     }
-    
+
     .border-line-bottom::before {
         bottom: 0;
         right: -200%;
     }
-    
+
     /* Left border */
     .border-line-left {
         width: 1px;
@@ -150,85 +150,85 @@
         bottom: 0;
         top: 0;
     }
-    
+
     .border-line-left::before {
         width: 1px;
         height: 300%;
         bottom: -200%;
         left: 0;
     }
-    
+
     /* Animation for each border line */
     .group:hover .border-line-top::before {
         animation: slide-right 1.5s linear infinite;
     }
-    
+
     .group:hover .border-line-right::before {
         animation: slide-down 1.5s linear 0.375s infinite;
     }
-    
+
     .group:hover .border-line-bottom::before {
         animation: slide-left 1.5s linear 0.75s infinite;
     }
-    
+
     .group:hover .border-line-left::before {
         animation: slide-up 1.5s linear 1.125s infinite;
     }
-    
+
     @keyframes slide-right {
         from { transform: translateX(-100%); }
         to { transform: translateX(100%); }
     }
-    
+
     @keyframes slide-down {
         from { transform: translateY(-100%); }
         to { transform: translateY(100%); }
     }
-    
+
     @keyframes slide-left {
         from { transform: translateX(100%); }
         to { transform: translateX(-100%); }
     }
-    
+
     @keyframes slide-up {
         from { transform: translateY(100%); }
         to { transform: translateY(-100%); }
     }
-    
+
     /* Ensure content is above the border */
     .relative.z-10, .relative {
         z-index: 2;
     }
-    
+
     /* Fix for testimonials and other content */
     .absolute.top-4.left-4 {
         z-index: 2;
     }
-    
+
     /* Theme toggle animations */
     @keyframes rotate-360 {
         from { transform: translate(-50%, -50%) rotate(0deg); }
         to { transform: translate(-50%, -50%) rotate(360deg); }
     }
-    
+
     @keyframes rotate-negative-360 {
         from { transform: translate(-50%, -50%) rotate(0deg); }
         to { transform: translate(-50%, -50%) rotate(-360deg); }
     }
-    
+
     .rotate-360 {
         animation: rotate-360 0.5s ease-in-out;
     }
-    
+
     .rotate-negative-360 {
         animation: rotate-negative-360 0.5s ease-in-out;
     }
-    
+
     /* Theme toggle click animation */
     .theme-toggle-clicked {
         animation: toggle-pulse 0.3s ease-in-out;
     }
-    
+
     @keyframes toggle-pulse {
         0% { transform: scale(1); }
         50% { transform: scale(1.05); }
@@ -249,17 +249,13 @@
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=exo-2:400,500,600,700|raleway:300,400,500,600" rel="stylesheet" />
 
-        <!-- Scripts -->
-        <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
-        <script src="https://unpkg.com/@motionone/dom@10.16.2/dist/motion-one-dom.min.js"></script>
-
         <!-- Styles -->
-        @vite(['resources/css/app.css', 'resources/js/app.js'])
-
+        @vite('resources/css/app.css')
+        <script defer src="http://umami-fokso408kww0o80kgokcsog0.139.84.226.35.sslip.io/script.js" data-website-id="d9f51733-8bcf-41ac-adce-34122c0d6012"></script>
     </head>
     <body x-data="{darkMode: true}" :class="darkMode ? 'dark' : ''" class="font-raleway bg-white dark:bg-[#04041F] text-slate-900 dark:text-white flex p-0 items-center justify-center min-h-screen flex-col antialiased selection:bg-purple-500/10 dark:selection:bg-blue-500/10 overflow-x-hidden transition-colors duration-500">
         <!-- Navigation -->
-        <header class="fixed top-0 w-full z-50 transition-all duration-300 backdrop-blur-sm bg-white/80 dark:bg-[#04041F]/80 border-b border-transparent" 
+        <header class="fixed top-0 w-full z-50 transition-all duration-300 backdrop-blur-sm bg-white/80 dark:bg-[#04041F]/80 border-b border-transparent"
                x-data="{isScrolled: false}"
                x-init="window.addEventListener('scroll', () => { isScrolled = window.scrollY > 20 })"
                :class="{'border-slate-200/50 dark:border-white/10 shadow-lg': isScrolled}">
@@ -270,7 +266,7 @@
                         <img src="{{ asset('images/ms-logo-white-text-v2.svg') }}" alt="MotionStack Design" class="h-10 hidden dark:block">
                         <img src="{{ asset('images/ms-logo-black-text-v2.svg') }}" alt="MotionStack Design" class="h-10 block dark:hidden">
                     </a>
-                    
+
                     <!-- Navigation Links -->
                     <div class="hidden md:flex items-center space-x-8 text-sm font-medium">
                         <a href="#services" class="text-slate-700 dark:text-white/80 hover:text-purple-600 dark:hover:text-blue-400 transition-colors">Services</a>
@@ -278,10 +274,10 @@
                         <a href="#portfolio" class="text-slate-700 dark:text-white/80 hover:text-purple-600 dark:hover:text-blue-400 transition-colors">Portfolio</a>
                         <a href="#testimonials" class="text-slate-700 dark:text-white/80 hover:text-purple-600 dark:hover:text-blue-400 transition-colors">Testimonials</a>
                     </div>
-                    
+
                     <!-- CTA Button & Theme Toggle -->
                     <div class="flex items-center space-x-4">
-                        <button @click="darkMode = !darkMode; $event.target.closest('button').classList.add('theme-toggle-clicked'); setTimeout(() => {$event.target.closest('button').classList.remove('theme-toggle-clicked')}, 300)" 
+                        <button @click="darkMode = !darkMode; $event.target.closest('button').classList.add('theme-toggle-clicked'); setTimeout(() => {$event.target.closest('button').classList.remove('theme-toggle-clicked')}, 300)"
                                 class="relative w-12 h-6 rounded-full bg-gradient-to-r from-blue-500/20 to-purple-600/20 dark:from-blue-500/30 dark:to-purple-600/30 backdrop-blur-sm border border-slate-200/50 dark:border-white/20 p-0.5 overflow-hidden transition-all duration-500 hover:shadow-md hover:shadow-purple-500/10 group"
                                 x-init="$watch('darkMode', value => {
                                     if (value) {
@@ -309,7 +305,7 @@
                                 </span>
                             </span>
                             <!-- Toggle knob with icons -->
-                            <span class="block w-5 h-5 rounded-full bg-white dark:bg-slate-800 shadow-md transform transition-transform duration-500 ease-in-out" 
+                            <span class="block w-5 h-5 rounded-full bg-white dark:bg-slate-800 shadow-md transform transition-transform duration-500 ease-in-out"
                                   :class="darkMode ? 'translate-x-6' : 'translate-x-0'">
                                 <!-- Moon icon -->
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-slate-400 opacity-0 dark:opacity-100 transition-all duration-500 transform rotate-0 dark:rotate-360" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -345,16 +341,56 @@
                         <div class="absolute top-40 -left-40 w-96 h-96 rounded-full bg-blue-600/10 dark:bg-blue-600/30 blur-3xl"></div>
                         <div class="absolute bottom-0 left-1/2 w-full h-1/2 bg-gradient-to-t from-white/80 dark:from-[#04041F]/80 to-transparent"></div>
                     </div>
-                    
+
                     <!-- Hero Content -->
                     <div class="relative z-10 max-w-7xl mx-auto w-full">
                         <div class="flex flex-col lg:flex-row items-center gap-12">
                             <div class="lg:w-1/2">
-                                <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-600">
-                                    Crafting Tailored <span class="block">Software Solutions</span> for Your Business
+                                <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 text-slate-900 dark:text-white">
+                                    <div class="stagger-text">
+                                        <span class="text-slate-900 dark:text-white"
+                                              x-init="
+                                                    () => {
+                                                        motion.animate(
+                                                            $el,
+                                                            {
+                                                                opacity: [0, 1],
+                                                                x: [-10, 0],
+
+                                                            },
+                                                            {
+                                                                duration: 1,
+                                                                ease: motion.easeOut,
+                                                            },
+
+
+                                                        )
+                                                    }
+                                                "
+                                        >Crafting</span>
+                                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600">Tailored Solutions</span>
+                                    </div>
+                                    <div class="stagger-text">
+                                        <span class="text-slate-900 dark:text-white">for</span>
+                                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600">Your Business</span>
+                                    </div>
                                 </h1>
+                                <script>
+                                document.addEventListener('DOMContentLoaded', () => {
+                                    const staggerTexts = document.querySelectorAll('.stagger-text span');
+
+                                    motion.animate(staggerTexts, {
+                                        opacity: [0, 1],
+                                        transform: ['translateY(20px)', 'translateY(0px)'],
+                                    }, {
+                                        delay: motion.stagger(0.15),
+                                        duration: 0.8,
+                                        easing: 'ease-out'
+                                    });
+                                });
+                                </script>
                                 <p class="text-lg md:text-xl max-w-2xl mb-10 text-slate-700 dark:text-zinc-300">
-                                    From web and mobile apps to video production and UI design, we deliver excellence across the board.                            
+                                    From web and mobile apps to video production and UI design, we deliver excellence across the board.
                                 </p>
                                 <p class="text-sm md:text-base text-zinc-400 mb-6">
                                     <span class="text-blue-400 font-medium">Trusted by Businesses Worldwide</span>
@@ -368,7 +404,7 @@
                                     </a>
                                 </div>
                             </div>
-                            
+
                             <!-- Animated Preview -->
                             <div class="lg:w-1/2 flex justify-center">
                                 <div class="relative w-full max-w-md">
@@ -430,7 +466,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    
+
                                     <!-- Decorative Elements -->
                                     <div class="absolute -bottom-6 -right-6 w-64 h-64 bg-gradient-to-br from-blue-500/30 to-purple-600/30 rounded-full blur-3xl -z-10"></div>
                                     <div class="absolute -top-6 -left-6 w-64 h-64 bg-gradient-to-br from-purple-600/20 to-blue-500/20 rounded-full blur-3xl -z-10"></div>
@@ -439,7 +475,7 @@
                         </div>
                     </div>
                 </section>
-                
+
                 <!-- Services Section -->
                 <section id="services" class="relative py-20 px-6 overflow-hidden">
                     <!-- Background Gradients -->
@@ -447,14 +483,14 @@
                         <div class="absolute -top-20 right-20 w-72 h-72 rounded-full bg-purple-600/5 dark:bg-purple-600/20 blur-3xl"></div>
                         <div class="absolute bottom-40 left-20 w-72 h-72 rounded-full bg-blue-600/5 dark:bg-blue-600/20 blur-3xl"></div>
                     </div>
-                    
+
                     <div class="relative z-10 max-w-7xl mx-auto">
                         <!-- Section Header -->
                         <div class="text-center mb-16">
                             <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 font-exo">Comprehensive <span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-600">Software Solutions</span> for Every Need</h2>
                             <p class="text-lg text-slate-600 dark:text-zinc-400 max-w-2xl mx-auto">We build, create, and design with precision to drive your business forward.</p>
                         </div>
-                        
+
                         <!-- Services Grid -->
                         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
                             <!-- Service Card 1 -->
@@ -485,7 +521,7 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <!-- Service Card 2 -->
                             <div class="group relative bg-white/80 dark:bg-white/5 backdrop-blur-sm border border-slate-200/50 dark:border-white/10 rounded-xl overflow-hidden transition-all duration-300 hover:bg-white/90 dark:hover:bg-white/10 hover:shadow-lg hover:shadow-purple-500/10">
                                 <div class="animated-border animated-border-purple">
@@ -514,7 +550,7 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <!-- Service Card 3 -->
                             <div class="group relative bg-white/80 dark:bg-white/5 backdrop-blur-sm border border-slate-200/50 dark:border-white/10 rounded-xl overflow-hidden transition-all duration-300 hover:bg-white/90 dark:hover:bg-white/10 hover:shadow-lg hover:shadow-purple-500/10">
                                 <div class="animated-border">
@@ -543,7 +579,7 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <!-- Service Card 4 -->
                             <div class="group relative bg-white/80 dark:bg-white/5 backdrop-blur-sm border border-slate-200/50 dark:border-white/10 rounded-xl overflow-hidden transition-all duration-300 hover:bg-white/90 dark:hover:bg-white/10 hover:shadow-lg hover:shadow-purple-500/10">
                                 <div class="animated-border animated-border-purple">
@@ -572,7 +608,7 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <!-- Service Card 5 -->
                             <div class="group relative bg-white/80 dark:bg-white/5 backdrop-blur-sm border border-slate-200/50 dark:border-white/10 rounded-xl overflow-hidden transition-all duration-300 hover:bg-white/90 dark:hover:bg-white/10 hover:shadow-lg hover:shadow-purple-500/10">
                                 <div class="animated-border">
@@ -601,7 +637,7 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <!-- Service Card 6 -->
                             <div class="group relative bg-white/80 dark:bg-white/5 backdrop-blur-sm border border-slate-200/50 dark:border-white/10 rounded-xl overflow-hidden transition-all duration-300 hover:bg-white/90 dark:hover:bg-white/10 hover:shadow-lg hover:shadow-purple-500/10">
                                 <div class="animated-border animated-border-purple">
@@ -655,7 +691,7 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <!-- Service Card 6 - Video Production -->
                             <div class="group relative bg-white/80 dark:bg-white/5 backdrop-blur-sm border border-slate-200/50 dark:border-white/10 rounded-xl overflow-hidden transition-all duration-300 hover:bg-white/90 dark:hover:bg-white/10 hover:shadow-lg hover:shadow-purple-500/10">
                                 <div class="animated-border">
@@ -682,7 +718,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <!-- CTA Button -->
                         <div class="mt-12 text-center">
                             <a href="#contact" class="inline-block px-8 py-3 rounded-md bg-gradient-to-r from-blue-500 to-purple-600 text-white font-medium transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-purple-500/20 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 dark:focus:ring-offset-[#04041F] focus:ring-offset-white">
@@ -691,7 +727,7 @@
                         </div>
                     </div>
                 </section>
-                
+
                 <!-- Why Choose Us Section -->
                 <section id="about" class="relative py-20 px-6 overflow-hidden">
                     <!-- Background Gradients -->
@@ -699,7 +735,7 @@
                         <div class="absolute -top-20 left-20 w-72 h-72 rounded-full bg-blue-600/20 blur-3xl"></div>
                         <div class="absolute bottom-40 right-20 w-72 h-72 rounded-full bg-purple-600/20 blur-3xl"></div>
                     </div>
-                    
+
                     <div class="relative z-10 max-w-7xl mx-auto">
                         <div class="flex flex-col lg:flex-row items-center gap-16">
                             <!-- Left Column: Image -->
@@ -733,7 +769,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    
+
                                     <!-- Decorative Elements -->
                                     <div class="absolute -top-6 -right-6 w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center shadow-lg">
                                         <div class="w-10 h-10 rounded-full bg-[#04041F] flex items-center justify-center">
@@ -751,12 +787,12 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <!-- Right Column: Content -->
                             <div class="lg:w-1/2 order-1 lg:order-2">
                                 <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 font-exo">Why <span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-600">Partner with MotionStack</span>?</h2>
                                 <p class="text-lg text-slate-600 dark:text-zinc-400 mb-8">We're not just developers – we're strategic partners committed to transforming your vision into powerful software solutions.</p>
-                                
+
                                 <!-- Features List -->
                                 <div class="space-y-6">
                                     <!-- Feature 1 -->
@@ -771,7 +807,7 @@
                                             <p class="text-slate-600 dark:text-zinc-400">Our team brings years of expertise in modern frameworks like Laravel, Flutter, and React, ensuring your project is built with industry best practices.</p>
                                         </div>
                                     </div>
-                                    
+
                                     <!-- Feature 2 -->
                                     <div class="flex items-start">
                                         <div class="flex-shrink-0 w-10 h-10 rounded-lg bg-slate-100/80 dark:bg-white/10 flex items-center justify-center mr-4">
@@ -784,7 +820,7 @@
                                             <p class="text-slate-600 dark:text-zinc-400">We don't believe in one-size-fits-all. Every solution we build is custom-designed to address your specific business challenges and goals.</p>
                                         </div>
                                     </div>
-                                    
+
                                     <!-- Feature 3 -->
                                     <div class="flex items-start">
                                         <div class="flex-shrink-0 w-10 h-10 rounded-lg bg-slate-100/80 dark:bg-white/10 flex items-center justify-center mr-4">
@@ -815,7 +851,7 @@
                         </div>
                     </div>
                 </section>
-                
+
                 <!-- Portfolio Section -->
                 <section id="portfolio" class="relative py-20 px-6 overflow-hidden">
                     <!-- Background Gradients -->
@@ -823,14 +859,14 @@
                         <div class="absolute top-20 -right-20 w-72 h-72 rounded-full bg-purple-600/20 blur-3xl"></div>
                         <div class="absolute bottom-20 -left-20 w-72 h-72 rounded-full bg-blue-600/20 blur-3xl"></div>
                     </div>
-                    
+
                     <div class="relative z-10 max-w-7xl mx-auto">
                         <!-- Section Header -->
                         <div class="text-center mb-16">
                             <h2 class="text-3xl md:text-4xl font-bold mb-4">Our <span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-600">Portfolio</span></h2>
                             <p class="text-lg text-slate-600 dark:text-zinc-400 max-w-2xl mx-auto">Explore our latest motion design projects and see how we bring brands to life through animation.</p>
                         </div>
-                        
+
                         <!-- Portfolio Filter -->
                         <div class="flex flex-wrap justify-center gap-2 mb-12">
                             <button class="px-4 py-2 rounded-md bg-blue-500/10 dark:bg-white/10 backdrop-blur-sm border border-blue-400/20 dark:border-white/20 text-slate-700 dark:text-white font-medium transition-all hover:bg-blue-500/20 dark:hover:bg-white/20 focus:outline-none focus:ring-2 focus:ring-blue-400 dark:focus:ring-white/20 focus:ring-offset-2 dark:focus:ring-offset-[#04041F] focus:ring-offset-white active">
@@ -846,7 +882,7 @@
                                 Logo Animation
                             </button>
                         </div>
-                        
+
                         <!-- Portfolio Grid -->
                         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
                             <!-- Portfolio Item 1 -->
@@ -879,7 +915,7 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <!-- Portfolio Item 2 -->
                             <div class="group relative overflow-hidden rounded-xl bg-white/5 backdrop-blur-sm border border-white/10 transition-all duration-300 hover:bg-white/10 hover:shadow-lg hover:shadow-purple-500/10">
                                 <div class="animated-border animated-border-purple">
@@ -910,7 +946,7 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <!-- Portfolio Item 3 -->
                             <div class="group relative overflow-hidden rounded-xl bg-white/5 backdrop-blur-sm border border-white/10 transition-all duration-300 hover:bg-white/10 hover:shadow-lg hover:shadow-purple-500/10">
                                 <div class="animated-border">
@@ -941,7 +977,7 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <!-- Portfolio Item 4 -->
                             <div class="group relative overflow-hidden rounded-xl bg-white/5 backdrop-blur-sm border border-white/10 transition-all duration-300 hover:bg-white/10 hover:shadow-lg hover:shadow-purple-500/10">
                                 <div class="animated-border animated-border-purple">
@@ -972,7 +1008,7 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <!-- Portfolio Item 5 -->
                             <div class="group relative overflow-hidden rounded-xl bg-white/5 backdrop-blur-sm border border-white/10 transition-all duration-300 hover:bg-white/10 hover:shadow-lg hover:shadow-purple-500/10">
                                 <div class="animated-border">
@@ -1003,7 +1039,7 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <!-- Portfolio Item 6 -->
                             <div class="group relative overflow-hidden rounded-xl bg-white/5 backdrop-blur-sm border border-white/10 transition-all duration-300 hover:bg-white/10 hover:shadow-lg hover:shadow-purple-500/10">
                                 <div class="animated-border animated-border-purple">
@@ -1035,7 +1071,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <!-- View More Button -->
                         <div class="mt-12 text-center">
                             <a href="#" class="inline-block px-8 py-3 rounded-md bg-white/10 backdrop-blur-md border border-white/20 text-white font-medium transition-all hover:bg-white/20 focus:outline-none focus:ring-2 focus:ring-white/20 focus:ring-offset-2 focus:ring-offset-[#04041F]">
@@ -1044,7 +1080,7 @@
                         </div>
                     </div>
                 </section>
-                
+
                 <!-- Testimonials Section -->
                 <section id="testimonials" class="relative py-20 px-6 overflow-hidden">
                     <!-- Background Gradients -->
@@ -1052,14 +1088,14 @@
                         <div class="absolute -top-20 -right-20 w-72 h-72 rounded-full bg-blue-600/20 blur-3xl"></div>
                         <div class="absolute bottom-20 left-20 w-72 h-72 rounded-full bg-purple-600/20 blur-3xl"></div>
                     </div>
-                    
+
                     <div class="relative z-10 max-w-7xl mx-auto">
                         <!-- Section Header -->
                         <div class="text-center mb-16">
                             <h2 class="text-3xl md:text-4xl font-bold mb-4">Client <span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-600">Testimonials</span></h2>
                             <p class="text-lg text-slate-600 dark:text-zinc-400 max-w-2xl mx-auto">Don't just take our word for it. Here's what our clients have to say about working with MotionStack.</p>
                         </div>
-                        
+
                         <!-- Testimonials Grid -->
                         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
                             <!-- Testimonial 1 -->
@@ -1084,7 +1120,7 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <!-- Testimonial 2 -->
                             <div class="group relative bg-white/80 dark:bg-white/5 backdrop-blur-sm border border-slate-200/50 dark:border-white/10 rounded-xl overflow-hidden transition-all duration-300 hover:bg-white/90 dark:hover:bg-white/10 hover:shadow-lg hover:shadow-purple-500/10 p-8">
                                 <div class="animated-border animated-border-purple">
@@ -1107,7 +1143,7 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <!-- Testimonial 3 -->
                             <div class="group relative bg-white/80 dark:bg-white/5 backdrop-blur-sm border border-slate-200/50 dark:border-white/10 rounded-xl overflow-hidden transition-all duration-300 hover:bg-white/90 dark:hover:bg-white/10 hover:shadow-lg hover:shadow-purple-500/10 p-8">
                                 <div class="animated-border">
@@ -1130,7 +1166,7 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <!-- Testimonial 4 -->
                             <div class="group relative bg-white/80 dark:bg-white/5 backdrop-blur-sm border border-slate-200/50 dark:border-white/10 rounded-xl overflow-hidden transition-all duration-300 hover:bg-white/90 dark:hover:bg-white/10 hover:shadow-lg hover:shadow-purple-500/10 p-8">
                                 <div class="animated-border animated-border-purple">
@@ -1153,7 +1189,7 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <!-- Testimonial 5 -->
                             <div class="group relative bg-white/80 dark:bg-white/5 backdrop-blur-sm border border-slate-200/50 dark:border-white/10 rounded-xl overflow-hidden transition-all duration-300 hover:bg-white/90 dark:hover:bg-white/10 hover:shadow-lg hover:shadow-purple-500/10 p-8">
                                 <div class="animated-border">
@@ -1176,7 +1212,7 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <!-- Testimonial 6 -->
                             <div class="group relative bg-white/80 dark:bg-white/5 backdrop-blur-sm border border-slate-200/50 dark:border-white/10 rounded-xl overflow-hidden transition-all duration-300 hover:bg-white/90 dark:hover:bg-white/10 hover:shadow-lg hover:shadow-purple-500/10 p-8">
                                 <div class="animated-border animated-border-purple">
@@ -1202,7 +1238,7 @@
                         </div>
                     </div>
                 </section>
-                
+
                 <!-- Contact Section -->
                 <section id="contact" class="relative py-20 px-6 overflow-hidden">
                     <!-- Background Gradients -->
@@ -1210,14 +1246,14 @@
                         <div class="absolute top-20 left-20 w-72 h-72 rounded-full bg-purple-600/20 blur-3xl"></div>
                         <div class="absolute -bottom-20 -right-20 w-72 h-72 rounded-full bg-blue-600/20 blur-3xl"></div>
                     </div>
-                    
+
                     <div class="relative z-10 max-w-7xl mx-auto">
                         <div class="flex flex-col lg:flex-row gap-16">
                             <!-- Left Column: Contact Form -->
                             <div class="lg:w-2/3">
                                 <h2 class="text-3xl md:text-4xl font-bold mb-4">Ready to <span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-600">Elevate Your Business</span>?</h2>
                                 <p class="text-lg text-slate-600 dark:text-zinc-400 mb-8">Let's discuss how we can bring your vision to life with our software solutions.</p>
-                                
+
                                 <!-- Contact Form -->
                                 <form class="space-y-6">
                                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -1245,14 +1281,14 @@
                                     </div>
                                 </form>
                             </div>
-                            
+
                             <!-- Right Column: Contact Info -->
                             <div class="lg:w-1/3">
                                 <div class="group relative bg-white/80 dark:bg-white/5 backdrop-blur-sm border border-slate-200/50 dark:border-white/10 rounded-xl overflow-hidden p-8">
                                     <div class="border-flow-animation"></div>
                                     <div class="border-gradient border-gradient-purple"></div>
                                     <h3 class="text-xl font-bold mb-6 font-exo">Contact Information</h3>
-                                    
+
                                     <div class="space-y-6">
                                         <div class="flex items-start">
                                             <div class="flex-shrink-0 w-10 h-10 rounded-lg bg-slate-100/80 dark:bg-white/10 flex items-center justify-center mr-4">
@@ -1265,7 +1301,7 @@
                                                 <p class="text-slate-600 dark:text-zinc-400">+27 (0)79 470-3941</p>
                                             </div>
                                         </div>
-                                        
+
                                         <div class="flex items-start">
                                             <div class="flex-shrink-0 w-10 h-10 rounded-lg bg-slate-100/80 dark:bg-white/10 flex items-center justify-center mr-4">
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -1277,7 +1313,7 @@
                                                 <p class="text-slate-600 dark:text-zinc-400">info@motionstack.design</p>
                                             </div>
                                         </div>
-                                        
+
                                         <div class="flex items-start">
                                             <div class="flex-shrink-0 w-10 h-10 rounded-lg bg-slate-100/80 dark:bg-white/10 flex items-center justify-center mr-4">
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -1291,7 +1327,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    
+
                                     <div class="mt-8">
                                         <h4 class="font-medium mb-4 text-slate-800 dark:text-white">Follow Us</h4>
                                         <div class="flex space-x-4">
@@ -1308,7 +1344,7 @@
                         </div>
                     </div>
                 </section>
-                
+
                 <!-- Footer -->
                 <footer class="relative py-12 px-6 border-t border-slate-200/20 dark:border-white/10">
                     <div class="max-w-7xl mx-auto">
@@ -1330,6 +1366,8 @@
         @if (Route::has('login'))
             <div class="h-14.5 hidden lg:block"></div>
         @endif
-    
+
+        @vite('resources/js/app.js')
+
     </body>
 </html>
